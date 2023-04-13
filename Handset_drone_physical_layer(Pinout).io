@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T07:24:45.447Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mx69MAW4PsGAGqMsIQwd" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T07:31:28.515Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mJzDU04_izIwbk1QFiGj" version="21.1.7" type="github">
   <diagram name="Страница 1" id="Lj8wtjsmu4fdRKPFiniZ">
     <mxGraphModel dx="1362" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
