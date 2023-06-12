@@ -41,7 +41,7 @@ void serial_port_init(const serial_port_num serial_num)
 	}; */
 
 	uart_config_t uart_config = { // настройки с сайта
-        .baud_rate = 115200, // Скорость передачи
+        .baud_rate = 400000, // Скорость передачи
         .data_bits = UART_DATA_8_BITS, // Биты данных
         .parity = UART_PARITY_DISABLE, // проверка четности
         .stop_bits = UART_STOP_BITS_1, // Стоповые биты
@@ -57,6 +57,8 @@ void serial_port_init(const serial_port_num serial_num)
 	QueueHandle_t uart_queue;
 	// ESP_ERROR_CHECK(uart_driver_install(serial_num, 1024, 0, 0, NULL, 0));
 	ESP_ERROR_CHECK(uart_driver_install(UART_NUM_2, uart_buffer_size, uart_buffer_size, 10, &uart_queue, 0));
+
+    ESP_ERROR_CHECK(uart_set_line_inverse(serial_num, UART_SIGNAL_RXD_INV));
 
 	char serial_path[12];
     snprintf(serial_path, 12, "/dev/uart/%d", serial_num);
