@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <esp_log.h>
 
+#include "main.h"
 #include "serial_port_helper.h"
 
 //extern serial_port_num serial_num;
